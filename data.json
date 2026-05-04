@@ -1,0 +1,111 @@
+{
+  "title": "KONTROLNÝ PROTOKOL FVE",
+  "subtitle": "Kontrola montáže (SolarEdge / Huawei)",
+  "norms": [
+    "STN 33 2000-7-712 (FV systémy)",
+    "STN EN 62446-1 (Overovanie)",
+    "STN EN 62305 (Ochrana pred bleskom)"
+  ],
+  "sections": [
+    {
+      "id": "3.1",
+      "title": "Bezpečnosť práce (HSE)",
+      "critical": "Práca vo výške bez istenia → okamžité zastavenie prác",
+      "items": [
+        "Použité OOPP (prilba, postroj, ochrana zraku)",
+        "Zabezpečenie proti pádu",
+        "Organizácia pracoviska (bez rizík)",
+        "Bezpečné pracovné postupy"
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Nosná konštrukcia",
+      "critical": "Kotvenie len do krytiny",
+      "items": [
+        "Kotvenie do nosnej konštrukcie (overené fyzicky strecha/krovy )",
+        "Použité systémové prvky (žiadne necertifikované kotviace riešenia)",
+        "Tesnosť strechy (prestupy utesnené)",
+        "Mechanická stabilita (konštrukcia na plochu strechu / šikmá strecha)",
+        "Dotiahnutie spojov podľa špecifikácie výrobcu (momentovým kľúčom)"
+      ]
+    },
+    {
+      "id": "3.3",
+      "title": "Fotovoltaické panely",
+      "items": [
+        "Bez mechanického poškodenia",
+        "Správne uchytenie",
+        "Zarovnanie a rozloženie podľa projektu",
+        "Bez významného tienenia"
+      ]
+    },
+    {
+      "id": "3.4",
+      "title": "DC inštalácia",
+      "critical": "Miešanie konektorov rôznych výrobcov",
+      "items": [
+        "DC káble (UV odolné, dvojitá izolácia, 6mm)",
+        "Správne vedenie (UV chranička, oddelene od AC)",
+        "Konektory kompatibilné a správne zapojené (MC4 staubli )",
+        "Dodržaná polarita",
+        "Minimalizácia slučiek (EMC + blesk)"
+      ]
+    },
+    {
+      "id": "3.5",
+      "title": "Uzemnenie a prepäťová ochrana",
+      "critical": "Chýbajúce uzemnenie konštrukcie",
+      "items": [
+        "Ekvipotenciálne prepojenie",
+        "Kontinuita uzemnenia (spojitost uzemnenia)",
+        "SPD (typ 1/2 podľa návrhu)",
+        "Prepojenie na LPS (ak existuje)"
+      ]
+    },
+    {
+      "id": "3.6",
+      "title": "Menič a AC časť",
+      "items": [
+        "Správne umiestnenie (ventilácia, IP ochrana)",
+        "Prístupnosť (pre obsluhu ) ",
+        "Oddelenie DC/AC trás",
+        "Istenie a ochrany",
+        "Funkčný odpojovač"
+      ]
+    },
+    {
+      "id": "3.7-3.8",
+      "title": "SolarEdge / Huawei Špecifiká",
+      "critical": "Vypnuté ochranné funkcie (AFCI bez dôvodu)",
+      "items": [
+        "Optimizer na každom paneli / Kompatibilné optimizéry",
+        "Správne zapojenie stringov (MPPT tracking)",
+        "Komunikácia optimizerov a validácia v monitoringu",
+        "AFCI aktivovaný / Rapid Shutdown funkčný",
+        "Smart meter / export limit správne zapojený"
+      ]
+    },
+    {
+      "id": "3.9-3.10",
+      "title": "Monitoring, Batérie a Testy",
+      "items": [
+        "Systém online, dáta z výroby dostupné",
+        "Batéria: umiestnenie, fixácia, odstupy",
+        "Batéria: silová/dátová kabeláž, BMS, FW update",
+        "Meranie Voc, Isc a kontrola polarity",
+        "Izolačný odpor (Riso)",
+        "Bez chýbových hlásení"
+      ]
+    },
+    {
+      "id": "3.11",
+      "title": "Označenie",
+      "items": [
+        "Výstražné štítky (DC napätie)",
+        "Označenie odpojovačov",
+        "Schéma na mieste"
+      ]
+    }
+  ]
+}
